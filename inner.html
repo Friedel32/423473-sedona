@@ -31,8 +31,9 @@
       </header>
 
     <main>
-      <form class="selection">
-        <div>
+      <section class="filter">
+      <form action="#">
+        <div class="filter-infrastructure">
           <h3>Инфраструктура:</h3>
             <input type="checkbox" name="pool" checked>
             <label for="pool">Бассейн</label>
@@ -42,7 +43,7 @@
             <label for="wi-fi">Wi-fi</label>
         </div>
 
-        <div>
+        <div class="filter-type-house">
           <h3>Тип жилья:</h3>
             <input type="checkbox" name="hotel" checked>
             <label for="hotel">Гостиница</label>
@@ -52,28 +53,26 @@
             <label for="apartments">Апартаменты</label>
         </div>
 
-        <div>
+        <div class="filter-price">
           <h3>Стоимость в сутки (р.):</h3>
             <input type="text" name="min" value="от 0">
             <input type="text" name="max" value="до 3000"><br>
             <input type="submit" value="Показать">
         </div>
       </form>
+    </section>
 
-        <div class="sort">
-          <div>
+      <section class="sort">
+        <div>
             <h3>Найдено: 3</h3>
             <p>Сортировка:<p>
-          </div>
-          <div>
             <a href="#">По цене</a>
             <a href="#">По типу</a>
             <a href="#">По рейтингу</a>
-          </div>
-          <div class="sort-icon"></div>
         </div>
+      </section>
 
-    <div class=results>
+    <section class=hotel>
       <div>
         <img class="img-results" src="#" width="" height="" alt="Amara Resort & Spa">
       </div>
@@ -85,9 +84,9 @@
         <a href="#">Забронировать</a>
       </div>
       <p>Рейтинг 8,5</p>
-    </div>
+    </section>
 
-    <div class=results>
+    <section class="hotel">
       <div>
         <img class="img-results" src="#" width="" height="" alt="Desert quail inn">
       </div>
@@ -99,9 +98,9 @@
         <a href="#">Забронировать</a>
       </div>
       <p>Рейтинг 8,9</p>
-    </div>
+    </section>
 
-    <div class=results>
+    <section class="hotel">
       <div>
         <img class="img-results" src="#" width="" height="" alt="Villas at poco diablo">
       </div>
@@ -113,7 +112,7 @@
         <a href="#">Забронировать</a>
       </div>
       <p>Рейтинг 9,2</p>
-    </div>
+    </section>
 
   </main>
 
