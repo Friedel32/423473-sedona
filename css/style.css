@@ -1,0 +1,21 @@
+body {
+font-family:MyriadPro. PTSans;
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+text-transform: uppercase;
+line-height: 21px;
+font-color:black;
+text-align: center;
+}
+
+h1 {
+  font-size: 21pt;
+  line-height: 26 pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 21pt;
+  font-color:white;
+}
