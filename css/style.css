@@ -1,26 +1,26 @@
 body {
-font-family:MyriadPro. PTSans;
+font-family:"MyriadPro", " PTSans", sans-serif;
 font-size: 14px;
 font-weight: normal;
 font-style: normal;
 text-transform: uppercase;
 line-height: 21px;
-font-color: #000000;
+color: #000000;
 text-align: center;
 }
 
 h1 {
-  font-family:MyriadPro. PTSans;
+  font-family:"MyriadPro", " PTSans", sans-serif;
   font-size: 21px;
   line-height: 26 px;
-  font-color: #000000;
+  color: #000000;
   font-weight: normal;
 }
 
 h2 {
-  font-family:MyriadPro. PTSans;
+  font-family:"MyriadPro", " PTSans", sans-serif;
   font-size: 21px;
   line-height: 21 px;
-  font-color: #ffffff;
+  color: #ffffff;
   font-weight: normal;
 }
