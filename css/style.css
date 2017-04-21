@@ -10,16 +10,17 @@ text-align: center;
 }
 
 h1 {
+  font-family:MyriadPro. PTSans;
   font-size: 21px;
   line-height: 26 px;
-  font-weight: bold;
+  font-color: #000000;
+  font-weight: normal;
 }
 
 h2 {
+  font-family:MyriadPro. PTSans;
   font-size: 21px;
+  line-height: 21 px;
   font-color: #ffffff;
-}
-.main-foto {
-  background-image: url(img/img/mountains.jpg);
-  background-color: black;
+  font-weight: normal;
 }
