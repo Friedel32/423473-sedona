@@ -7,12 +7,16 @@ text-transform: uppercase;
 line-height: 21px;
 color: #000000;
 text-align: center;
+min-width: 1280px;
+min-height: 2762px;
+margin: 0;
+padding: 0;
 }
 
 h1 {
   font-family:"MyriadPro", " PTSans", sans-serif;
   font-size: 21px;
-  line-height: 26 px;
+  line-height: 26px;
   color: #000000;
   font-weight: normal;
 }
@@ -20,7 +24,91 @@ h1 {
 h2 {
   font-family:"MyriadPro", " PTSans", sans-serif;
   font-size: 21px;
-  line-height: 21 px;
+  line-height: 21px;
   color: #ffffff;
   font-weight: normal;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.main-header {
+  height: auto;
+}
+
+.main-navigation {
+  margin-top: -80px;
+  padding-bottom: 25px;
+}
+
+.nav-info,
+.nav-photo,
+.nav-map,
+.nav-hotels {
+  width: 266px;
+  float: left;
+}
+
+.logo-sity {
+  width: 138px;
+  margin: auto;
+  padding-right: 132px;
+  padding-left: 121px;
+}
+
+.main-photo {
+  height: 511px;
+  background-image: url(img/mountains.jpg), no-repeat;
+  margin-top: 62px;
+}
+
+.text {
+  height: 215px;
+  background-color: #ffffff;
+}
+
+.block-text-1 {
+  height: 256px;
+  width: 400px;
+  background-color: #81b3d2;
+  float: left;
+}
+
+.item {
+  height: 330px;
+}
+
+.item2 {
+  height: 256 px;
+  background-color: #eeeeee;
+}
+
+.item-house,
+.item-burger,
+.item-present,
+.item2-3,
+.item2-4,
+.item2-5 {
+  width: 400px;
+  float: left;
+}
+
+.block-text-2 {
+  height: 256px;
+  width: 400px;
+  background-color: #81b3d2;
+  float: right;
+}
+
+.main-footer {
+  padding-top: 50px;
+}
+
+.footer-visit,
+.footer-social,
+.footer-copyright {
+  width: 400px;
+  float: left;
 }
