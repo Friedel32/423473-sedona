@@ -7,8 +7,6 @@ text-transform: uppercase;
 line-height: 21px;
 color: #000000;
 text-align: center;
-min-width: 1280px;
-min-height: 2762px;
 margin: 0;
 padding: 0;
 }
@@ -25,7 +23,7 @@ h2 {
   font-family:"MyriadPro", " PTSans", sans-serif;
   font-size: 21px;
   line-height: 21px;
-  color: #ffffff;
+  color: #000000;
   font-weight: normal;
 }
 
@@ -34,39 +32,48 @@ h2 {
   margin: auto;
 }
 
+.clearfix::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
 .main-header {
-  height: auto;
+  height: 70px;
 }
 
 .main-navigation {
-  margin-top: -80px;
-  padding-bottom: 25px;
+
 }
 
-.nav-info,
-.nav-photo,
-.nav-map,
-.nav-hotels {
-  width: 266px;
+.nav-right {
+  width: 265.5px;
+  float: right;
+}
+
+.nav-left {
+  width: 265.5px;
   float: left;
 }
 
 .logo-sity {
   width: 138px;
   margin: auto;
-  padding-right: 132px;
-  padding-left: 121px;
 }
 
+}
 .main-photo {
   height: 511px;
-  background-image: url(img/mountains.jpg), no-repeat;
-  margin-top: 62px;
+  background-image: url(img/mountains.jpg);
 }
 
 .text {
   height: 215px;
   background-color: #ffffff;
+}
+
+.text h1 {
+  padding-top: 65px;
 }
 
 .block-text-1 {
@@ -76,12 +83,26 @@ h2 {
   float: left;
 }
 
+.block-text-1 h2 {
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+.block-text-2 h2 {
+  padding-top: 49px;
+  color: #ffffff;
+}
+
+.block p {
+  color: #ffffff;
+}
+
 .item {
   height: 330px;
 }
 
 .item2 {
-  height: 256 px;
+  height: 256px;
   background-color: #eeeeee;
 }
 
@@ -93,6 +114,7 @@ h2 {
 .item2-5 {
   width: 400px;
   float: left;
+  padding-top: 61px;
 }
 
 .block-text-2 {
@@ -102,7 +124,20 @@ h2 {
   float: right;
 }
 
+.block-text-2 h2 {
+  padding-top: 49px;
+}
+
+.search {
+  height: 251px;
+}
+
+.map {
+  height: 473px;
+}
+
 .main-footer {
+  height: 120px;
   padding-top: 50px;
 }
 
@@ -110,5 +145,39 @@ h2 {
 .footer-social,
 .footer-copyright {
   width: 400px;
+  float: left;
+}
+
+/*index.html*/
+
+.filter {
+  height: 217px;
+  background-image: url(../img/filter_background.jpg);
+}
+
+.filter-infrastructure,
+.filter-type-house {
+  float: left;
+  width: 300px;
+}
+
+.filter-price {
+  float: left;
+  width: 600px;
+}
+
+.sort {
+  height: 86px;
+}
+
+.sort h3, p, a {
+  float: left;
+}
+
+.hotel {
+  height: 152px;
+}
+
+.hotel img, h3, p, a {
   float: left;
 }
