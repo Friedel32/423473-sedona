@@ -39,7 +39,7 @@ h2 {
 }
 
 .main-header {
-  height: 70px;
+
 }
 
 .main-navigation {
@@ -47,12 +47,12 @@ h2 {
 }
 
 .nav-right {
-  width: 265.5px;
+  width: 265px;
   float: right;
 }
 
 .nav-left {
-  width: 265.5px;
+  width: 265px;
   float: left;
 }
 
@@ -61,10 +61,9 @@ h2 {
   margin: auto;
 }
 
-}
-.main-photo {
+.img-mountains {
   height: 511px;
-  background-image: url(img/mountains.jpg);
+  background-image: url(../img/mountains.jpg);
 }
 
 .text {
@@ -86,6 +85,10 @@ h2 {
 .block-text-1 h2 {
   padding-top: 50px;
   color: #ffffff;
+}
+
+.block-img-1 {
+  float: right;
 }
 
 .block-text-2 h2 {
@@ -170,14 +173,10 @@ h2 {
   height: 86px;
 }
 
-.sort h3, p, a {
-  float: left;
-}
-
 .hotel {
   height: 152px;
 }
 
-.hotel img, h3, p, a {
+.hotel img {
   float: left;
 }
