@@ -57,7 +57,9 @@ h2 {
 
 .logo-sity {
   width: 138px;
-  margin: auto;
+  position: absolute;
+  transform: translateX(-50%);
+  margin-left: 50%;
 }
 
 .img-mountains {
@@ -76,6 +78,7 @@ h2 {
 
 .block-text-1 {
   width: 400px;
+  min-height: 256px;
   background-color: #81b3d2;
   float: left;
 }
@@ -119,12 +122,9 @@ h2 {
 
 .block-text-2 {
   width: 400px;
+  min-height: 256px;
   background-color: #81b3d2;
   float: right;
-}
-
-.block-text-2 h2 {
-  padding-top: 49px;
 }
 
 .search {
@@ -166,6 +166,11 @@ h2 {
 }
 
 .sort {
+  display: flex;
+  flex-direction: row;
+}
+
+.sort-a {
 
 }
 
@@ -183,8 +188,4 @@ h2 {
 
 .hotel-rating {
   float: right;
-}
-
-.star {
-  float: left;
 }
