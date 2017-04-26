@@ -6,7 +6,6 @@ font-style: normal;
 text-transform: uppercase;
 line-height: 21px;
 color: #000000;
-text-align: center;
 margin: 0;
 padding: 0;
 }
@@ -62,12 +61,12 @@ h2 {
 }
 
 .img-mountains {
-  height: 511px;
+
   background-image: url(../img/mountains.jpg);
 }
 
 .text {
-  height: 215px;
+
   background-color: #ffffff;
 }
 
@@ -76,7 +75,6 @@ h2 {
 }
 
 .block-text-1 {
-  height: 256px;
   width: 400px;
   background-color: #81b3d2;
   float: left;
@@ -101,11 +99,10 @@ h2 {
 }
 
 .item {
-  height: 330px;
+
 }
 
 .item2 {
-  height: 256px;
   background-color: #eeeeee;
 }
 
@@ -121,7 +118,6 @@ h2 {
 }
 
 .block-text-2 {
-  height: 256px;
   width: 400px;
   background-color: #81b3d2;
   float: right;
@@ -132,15 +128,15 @@ h2 {
 }
 
 .search {
-  height: 251px;
+
 }
 
 .map {
-  height: 473px;
+
 }
 
 .main-footer {
-  height: 120px;
+
   padding-top: 50px;
 }
 
@@ -154,7 +150,7 @@ h2 {
 /*index.html*/
 
 .filter {
-  height: 217px;
+
   background-image: url(../img/filter_background.jpg);
 }
 
@@ -170,13 +166,25 @@ h2 {
 }
 
 .sort {
-  height: 86px;
+
 }
 
 .hotel {
-  height: 152px;
+
 }
 
-.hotel img {
+.img-hotel {
+  float: left;
+}
+
+.hotel-info {
+  float: left;
+}
+
+.hotel-rating {
+  float: right;
+}
+
+.star {
   float: left;
 }
