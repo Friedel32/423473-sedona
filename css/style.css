@@ -192,7 +192,7 @@ form {
   font-size: 21px;
 }
 
-form {
+.search form {
   width: 458px;
   height: 395px;
   background-color: #ffffff;
@@ -246,10 +246,6 @@ input {
   color: #e2ecf4;
   text-transform: uppercase;
   background-color: #81b3d2;
-}
-
-.map {
-
 }
 
 .main-footer {
@@ -311,4 +307,19 @@ label {
 
 .hotel-rating {
   float: right;
+}
+
+.stars {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.star {
+  display: inline-block;
+  background-color: red;
+  background-image: url(../img/star.png);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 17px;
 }
