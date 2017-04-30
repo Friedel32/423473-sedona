@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
       <title>HTML Academy: Седона</title>
+      <link href="css/normalize.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -16,24 +17,26 @@
           <nav class="main-navigation">
             <ul class="clearfix">
               <li class="nav-right">
-                <a href="#">Информация</a>
+                <a href="inner.html">Гостиницы</a>
               </li>
               <li class="nav-right">
-                <a href="#">Фото и видео</a>
-              </li>
-              <li class="nav-left">
                 <a href="#">Карта штата</a>
               </li>
               <li class="nav-left">
-                <a href="inner.html">Гостиницы</a>
+                <a href="#">Информация</a>
+              </li>
+              <li class="nav-left">
+                <a href="#">Фото и видео</a>
               </li>
             </ul>
           </nav>
       </header>
 
-    <main>
+    <main class="content">
       <div class="img-mountains">
-        <img class="img-welcome" src="img/welcome.png" width="458" height="352" alt="Добро пожаловать в Седону">
+        <div class="img-welcome">
+        <img src="img/welcome.png" width="458" height="352" alt="Добро пожаловать в Седону">
+        </div>
       </div>
 
       <div class="text">
@@ -46,7 +49,7 @@
           </p>
       </div>
 
-      <div class="block clearfix">
+      <div class="block">
         <div class="block-text-1">
           <h2>
             Настоящий<br>
@@ -60,8 +63,8 @@
               Там течет своя жизнь
             </p>
         </div>
-        <div>
-          <img class="block-img-1" src="img/sedona.jpg" width="800" height="256" alt="Вид на Седону">
+        <div class="block-img-1">
+          <img class="img-sedona" src="img/sedona.jpg" width="800" height="256" alt="Вид на Седону">
         </div>
       </div>
 
@@ -107,7 +110,7 @@
 
       </section>
 
-      <div class="block clearfix">
+      <div class="block">
         <div class="block-text-2">
           <h2>
             Там есть<br>
@@ -121,8 +124,8 @@
               Осмелитесь
             </p>
         </div>
-        <div>
-          <img class="block-img-1" src="img/bridge.jpg" width="800" height="256" alt="Вид на мост дьявола">
+        <div class="block-img-2">
+          <img class="img-bridge" src="img/bridge.jpg" width="800" height="256" alt="Вид на мост дьявола">
         </div>
       </div>
 
@@ -171,23 +174,28 @@
         <a href="#">Поиск гостиницы в Седоне</a>
         <form action="#" method="post">
           <label> Дата заезда:
-            <input type="text" name="calendar">
+            <input class="data" type="text" name="calendar" placeholder="24 апреля 2017">
           </label>
           <label>Дата выезда:
-            <input type="text" name="calendar">
+            <input class="data" type="text" name="calendar" placeholder="4 июля 2017">
           </label>
-          <div>
-            <label>Взрослые:</label>
-            <button type=button>+</button>
-            <input type="text">
-            <button type=button>-</button>
-
-            <label>Дети:</label>
-            <button type=button>+</button>
-            <input type="text">
-            <button type=button>-</button>
+          <div class="person">
+            <div>
+              <label>Взрослые:</label>
+              <button type=button>+</button>
+              <input class="adults" type="text">
+              <button type=button>-</button>
+            </div>
+            <div>
+              <label>Дети:</label>
+              <button type=button>+</button>
+              <input class="children" type="text">
+              <button type=button>-</button>
+            </div>
           </div>
-          <button type=submit>Найти</button>
+          <div>
+           <button  class="btn-search" type=submit>Найти</button>
+         </div>
         </form>
       </div>
 
@@ -197,7 +205,7 @@
 
       </main>
 
-      <footer class="main-footer">
+      <footer class="main-footer clearfix">
 
         <section class="footer-visit">
           <a href="#" class="visitsedona">#visitsedona</a>
