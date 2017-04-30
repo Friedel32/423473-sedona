@@ -259,7 +259,7 @@ input {
 .footer-visit,
 .footer-social,
 .footer-copyright {
-  width: 400px;
+  width: 200px;
   float: left;
 }
 
@@ -267,26 +267,34 @@ input {
 
 .filter {
   background-image: url(../img/filter_background.jpg);
+  width: 1200px;
+  height: 562px;
 }
 
 .filter-infrastructure,
 .filter-type-house {
   float: left;
-  width: 300px;
+  width: 140px;
+
 }
 
 .filter-price {
-  float: left;
-  width: 600px;
+  float: right;
+  width: 324px;
+  margin-right: 72px;
+}
+
+label {
+  display: block;
 }
 
 .sort {
-  display: flex;
-  flex-direction: row;
+  float: left;
+  margin: 0;
 }
 
 .sort-a {
-
+  display: block;
 }
 
 .hotel {
