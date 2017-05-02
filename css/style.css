@@ -103,15 +103,16 @@ nav li {
   padding-top: 65px;
 }
 
-.block {
+.block-sedona {
   position: relative;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .block-text-1 {
   width: 400px;
   min-height: 256px;
   background-color: #81b3d2;
-  position: absolute;
 }
 
 .block-text-1 h2 {
@@ -146,6 +147,12 @@ nav li {
   color: #ffffff;
 }
 
+.block-bridge {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .block p {
   color: #ffffff;
 }
@@ -169,7 +176,10 @@ nav li {
   width: 400px;
   min-height: 256px;
   background-color: #81b3d2;
-  float: right;
+}
+
+.search {
+  position: relative;
 }
 
 form {
