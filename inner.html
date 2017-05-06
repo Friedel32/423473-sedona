@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -11,7 +13,9 @@
 
     <header class="main-header">
       <div  class="logo-city">
+        <a href="index.html">
         <img src="img/logo.png" width="138" height="70" alt="Логотип города">
+        </a>
       </div>
       <nav class="main-navigation">
         <ul class="clearfix">
@@ -66,12 +70,21 @@
             </label>
         </div>
 
-        <div class="filter-price">
-          <h3>Стоимость в сутки (р.):</h3>
-            <input type="text" name="min" value="от 0">
-            <input type="text" name="max" value="до 3000"><br>
-            <input type="submit" value="Показать">
+        <div class="filter-range">
+      <div class="filter-range-title">Стоимость в сутки (р):</div>
+      <div class="price-controls">
+        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+      </div>
+      <div class="range-controls">
+        <div class="scale">
+          <div class="bar"></div>
         </div>
+        <div class="range-toggle range-toggle-min"></div>
+        <div class="range-toggle range-toggle-max"></div>
+      </div>
+      <button class="btn-transparent" type="submit">Показать</button>
+    </div>
       </form>
     </section>
 
@@ -83,6 +96,10 @@
             <a href="#">По типу</a>
             <a href="#">По рейтингу</a>
           </div>
+          <div class="btn-sort-up">
+          </div>
+          <div class="btn-sort-down">
+          </div>
       </section>
 
       <section class="hotel clearfix">
@@ -90,13 +107,15 @@
           <img src="img/hotel_amara.jpg" width="135" height="90" alt="Amara resort & SPA">
         </div>
         <div class="hotel-info">
-          <h3>Amara resort & SPA</h3>
+          <a href="#">
+            <h3>Amara resort & SPA</h3>
+          </a>
             <p>
               <span>Гостиница</span>
               <span>От 4000 р.</span>
             </p>
-          <a href="#">Подробнее</a>
-          <a href="#">Забронировать</a>
+            <a class="details" href="#">Подробнее</a>
+            <a class="booking" href="#">Забронировать</a>
         </div>
         <div class="hotel-rating">
           <ul  class="stars">
@@ -114,13 +133,15 @@
           <img src="img/hotel_desert.jpg" width="135" height="90" alt="Desert quail inn">
         </div>
         <div class="hotel-info">
+          <a href="#">
           <h3>Desert quail inn</h3>
+          </a>
             <p>
               <span>Мотель</span>
               <span>От 3000 р.</span>
             </p>
-          <a href="#">Подробнее</a>
-          <a href="#">Забронировать</a>
+            <a class="details" href="#">Подробнее</a>
+            <a class="booking" href="#">Забронировать</a>
         </div>
         <div class="hotel-rating">
           <ul  class="stars">
@@ -137,13 +158,15 @@
           <img src="img/hotel_diablo.jpg" width="135" height="90" alt="Villas at poco diablo">
         </div>
         <div class="hotel-info">
+          <a href="#">
           <h3>Villas at poco diablo</h3>
+          </a>
           <p>
             <span>Аппартаменты</span>
             <span>От 2000 р.</span>
           </p>
-          <a href="#">Подробнее</a>
-          <a href="#">Забронировать</a>
+          <a class="details" href="#">Подробнее</a>
+          <a class="booking" href="#">Забронировать</a>
         </div>
         <div class="hotel-rating">
           <ul>
@@ -156,7 +179,7 @@
 
   </main>
 
-  <footer class="main-footer clearfix">
+  <footer class="main-footer-inn clearfix">
 
     <section class="footer-visit">
       <a href="#" class="visitsedona">#visitsedona</a>
@@ -169,10 +192,14 @@
     </section>
 
     <section class="footer-copyright">
-      <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+      <a class="btn" href="https://htmlacademy.ru">
+        <p>Website by</p>
+        <img src="img/logo_html.png" width="113" height="39" alt="Логотип HTML">
+      </a>
     </section>
 
         </footer>
+
       </div>
   </body>
 </html>
