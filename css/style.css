@@ -437,8 +437,10 @@ nav li {
 }
 
 .filter-range {
+  float: right;
   width: 330px;
-  margin: 50px auto; /* для демо */
+  padding-right: 72px;
+  margin: 32px auto;
 
   color: #ffffff;
   text-transform: uppercase;
