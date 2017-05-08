@@ -41,31 +41,37 @@
         <div class="filter-infrastructure">
           <h3>Инфраструктура:</h3>
             <label>
-              <input class="checkbox checkbox-st" type="checkbox" name="pool" checked>
+              <input type="checkbox" name="pool" checked>
+              <span></span>
               Бассейн
             </label>
             <label>
               <input type="checkbox" name="parking">
+              <span class="no-checked"></span>
               Парковка
             </label>
             <label>
-              <input type="checkbox" name="wi-fi">
+              <input class="no-checked" type="checkbox" name="wi-fi">
+              <span></span>
               Wi-fi
             </label>
         </div>
 
-        <div class="filter-type-house">
+        <div class="filter-infrastructure filter-type-house">
           <h3>Тип жилья:</h3>
             <label>
               <input type="checkbox" name="hotel" checked>
+              <span></span>
               Гостиница
             </label>
             <label>
               <input type="checkbox" name="motel" checked>
+              <span></span>
               Мотель
             </label>
             <label>
               <input type="checkbox" name="apartments" checked>
+              <span></span>
               Апартаменты
             </label>
         </div>
@@ -97,9 +103,9 @@
             <a href="#">По рейтингу</a>
           </div>
 
-          <div class="btn-sort-up">
-          </div>
-          <div class="btn-sort-down active-btn-down">
+          <div class="arrow">
+            <a class="btn-sort-up" href="#"></a>
+            <a class="btn-sort-down active-btn-down" href="#"></a>
           </div>
 
       </section>
@@ -196,15 +202,15 @@
       <a class="social-btn social-btn-youtube" href="#">Youtube</a>
     </section>
 
-    <section class="footer-copyright">
+    <div class="logo-htmlacademy">
+      <span>Website by</span>
       <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss">
-        <span>Website by</span>
-        <img src="img/logo_html.png" width="113" height="39" alt="Логотип HTML">
       </a>
-    </section>
+    </div>
 
         </footer>
 
       </div>
+
   </body>
 </html>
