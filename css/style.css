@@ -12,7 +12,7 @@ background-color: #ffffff;
 }
 
 h1 {
-  font-family:"MyriadPro", "PTSans", sans-serif;
+  font-family:'PT Sans', 'Roboto', sans-serif;
   font-size: 21px;
   line-height: 26px;
   color: #000000;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-family:"MyriadPro", " PTSans", sans-serif;
+  font-family:'PT Sans', 'Roboto', sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -98,7 +98,7 @@ nav li {
 .img-mountains {
   background-image: url(../img/mountains.jpg);
   width: 1200px;
-  min-height: 508px;
+  min-height: 435px;
   padding-top: 75px;
   position: relative;
 }
@@ -126,11 +126,14 @@ nav li {
 .text {
   background-color: #ffffff;
   margin: 0 auto;
-  padding: 41px;
+  padding: 50px;
+  padding-top: 45px;
+  padding-bottom: 20px;
+  line-height: 55px;
 }
 
 .text h1 {
-  padding-top: 65px;
+  font-weight: bold;
 }
 
 .block-sedona {
@@ -143,11 +146,14 @@ nav li {
   width: 34%;
   min-height: 256px;
   background-color: #81b3d2;
+  margin-bottom: 3px;
+  line-height: 23px;
 }
 
 .block-text-1 h2 {
-  padding-top: 50px;
   color: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 9px;
 }
 
 .block-text-1,
@@ -180,8 +186,10 @@ nav li {
 }
 
 .block-text-2 h2 {
-  padding-top: 49px;
   color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 32px;
+  margin-left: 7px;
 }
 
 .block-bridge {
@@ -196,6 +204,11 @@ nav li {
 
 .item2 {
   background-color: #eeeeee;
+  padding-right: 15px;
+}
+
+.item2 h2 {
+  margin-bottom: 33px;
 }
 
 .item-house,
@@ -204,16 +217,23 @@ nav li {
   width: 400px;
   float: left;
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 64px;
+}
+
+.item p {
+  margin-top: 25px;
+}
+.img-item {
+  padding-bottom: 3px;
 }
 
 .item2-3,
 .item2-4,
 .item2-5 {
-  width: 400px;
+  width: 395px;
   float: left;
-  padding-top: 50px;
-  padding-bottom: 60px;
+  padding-top: 28px;
+  padding-bottom: 45px;
 }
 
 .block-text-2 {
@@ -221,28 +241,42 @@ nav li {
   min-height: 256px;
   background-color: #81b3d2;
   box-sizing: border-box;
+  padding: 30px;
 }
 
 .search {
   position: relative;
 }
 
+.map {
+  background-image: image(../img/map.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 593px;
+  background-position: bottom;
+}
+
 .search h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 24px;
   margin-top: 57px;
+  margin-bottom: 33px;
 }
 
 .search p {
-  margin-bottom: 54px;
+  margin-bottom: 47px;
 }
 
 .search form {
-  width: 458px;
-  height: 395px;
+  width: 473px;
   position: absolute;
   transform: translateX(-50%);
   margin-left: 50%;
-  padding: 55px;
-  padding-bottom: 0;
+  padding-left: 55px;
+  padding-top: 25px;
+  padding-bottom: 55px;
+  padding-right: 40px;
   background-color: #ffffff;
   font-size: 0;
   box-shadow: 0px 0px 5px 2px #e1e1e1;
@@ -271,7 +305,7 @@ nav li {
 .data {
   position: relative;
   background-color: #f2f2f2;
-  width: 318px;
+  width: 342px;
   height: 38px;
   margin-top: 29px;
   margin-left: 20px;
@@ -293,8 +327,8 @@ nav li {
   width: 21px;
   height: 22px;
   position: absolute;
-  top: 93px;
-  right: 80px;
+  top: 60px;
+  right: 60px;
 }
 
 .img-data:hover {
@@ -302,8 +336,8 @@ nav li {
   width: 21px;
   height: 22px;
   position: absolute;
-  top: 93px;
-  right: 80px;
+  top: 60px;
+  right: 60px;
 }
 
 .img-data:active {
@@ -311,8 +345,8 @@ nav li {
   width: 21px;
   height: 22px;
   position: absolute;
-  top: 93px;
-  right: 80px;
+  top: 60px;
+  right: 60px;
 }
 
 .img-data-off {
@@ -320,8 +354,8 @@ nav li {
   width: 21px;
   height: 22px;
   position: absolute;
-  top: 160px;
-  right: 80px;
+  top: 130px;
+  right: 60px;
 }
 
 .img-data-off:hover {
@@ -329,8 +363,8 @@ nav li {
   width: 21px;
   height: 22px;
   position: absolute;
-  top: 160px;
-  right: 80px;
+  top: 130px;
+  right: 60px;
 }
 
 .img-data-off:active {
@@ -338,8 +372,8 @@ nav li {
   width: 21px;
   height: 22px;
   position: absolute;
-  top: 160px;
-  right: 80px;
+  top: 130px;
+  right: 60px;
 }
 
 .people {
@@ -385,12 +419,64 @@ padding-top: 30px;
   border: none;
   }
 
+.btn-plus:hover {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  background-color: #f2f2f2;
+  background-image: url(../img/plus-hover.png);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  }
+
+.btn-plus:active {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  background-color: #f2f2f2;
+  background-image: url(../img/plus-active.png);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  }
+
 .btn-minus {
   display: inline-block;
   font-size: 0;
   vertical-align: middle;
   background-color: #f2f2f2;
   background-image: url(../img/minus.png);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  width: 38px;
+  height: 38px;
+  border: none;
+}
+
+.btn-minus:hover {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  background-color: #f2f2f2;
+  background-image: url(../img/minus-hover.png);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  width: 38px;
+  height: 38px;
+  border: none;
+}
+
+.btn-minus-active {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  background-color: #f2f2f2;
+  background-image: url(../img/minus-active.png);
   background-repeat: no-repeat;
   background-position: 15px;
   width: 38px;
@@ -435,21 +521,23 @@ cursor: pointer;
 }
 
 .footer-visit a {
-  font-size: 14px;
+  font-size: 21px;
   font-weight: bold;
+  line-height: 26px;
   color: #000000;
   text-decoration: none;
 }
 
 .footer-visit {
   float: left;
-  padding-left: 132px;
-  padding-right: 100px;
+  padding-left: 130px;
+  padding-right: 70px;
 }
 
 .footer-social {
   float: left;
-  padding-left: 190px;
+  padding-left: 185px;
+  padding-bottom: 10px;
 }
 
 .social-btn {
@@ -551,7 +639,8 @@ cursor: pointer;
 .filter {
   background-image: url(../img/filter_background.jpg);
   width: 1200px;
-  min-height: 217px;
+  min-height: 205px;
+  padding-top: 12px;
 }
 
 .filter h3 {
@@ -573,7 +662,7 @@ cursor: pointer;
   min-height: 160px;
   margin-left: 71px;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-right: 20px;
 }
 
 .filter-infrastructure label, span {
@@ -607,8 +696,8 @@ cursor: pointer;
 .filter-range {
   float: right;
   width: 330px;
-  padding-right: 72px;
-  margin: 32px auto;
+  padding-right: 62px;
+  margin: 17px auto;
 
   color: #ffffff;
   text-transform: uppercase;
@@ -625,7 +714,7 @@ cursor: pointer;
 .price-controls {
   position: relative;
 
-  height: 36px;
+  height: 33px;
   margin-bottom: 20px;
 
   font-size: 0;
@@ -746,8 +835,9 @@ label {
 }
 
 .sort {
-  min-height: 86px;
   border-bottom: 1px solid #e5e5e5;
+  padding-top: 11px;
+  padding-bottom: 16px;
 }
 
 .sort h3 {
@@ -755,13 +845,14 @@ label {
   font-size: 21px;
   font-weight: bold;
   margin-left: 72px;
+  margin-right: 30px;
 }
 
 .sort p {
   float: left;
   margin-top: 23px;
   font-size: 12px;
-  margin-left: 56px;
+  margin-left: 26px;
 }
 
 .sort-a a {
@@ -769,12 +860,11 @@ label {
   font-size: 12px;
   color: #b2b2b2;
   text-decoration: none;
-  margin-left: 56px;
+  margin-left: 30px;
   margin-top: 23px;
   border-bottom: 1px dashed #81b3d2;
 }
 
-}
 .sort-a a:hover {
   color: #81b3d2;
   border-bottom: 1px dashed #81b3d2;
@@ -797,96 +887,70 @@ label {
   width: 35px;
 }
 
-.btn-sort-down {
-  display: block;
-  text-indent: -999999px;
-  height: 0;
-  border: 5px solid transparent;
-  border-top: 9px solid #cccccc;
-}
-
-.btn-sort-down:hover {
-  display: block;
-  text-indent: -999999px;
-  height: 0;
-  border: 5px solid transparent;
-  border-top: 9px solid #000000;
-}
-
-.btn-sort-down:active {
-  display: block;
-  text-indent: -999999px;
-  height: 0;
-  border: 5px solid transparent;
-  border-top: 9px solid #81b3d2;
-}
-
-.arrow .active-btn-down {
-  display: block;
-  text-indent: -999999px;
-  height: 0;
-  border: 5px solid transparent;
-  border-top: 9px solid #81b3d2;
-}
-
-.btn-sort-up {
-  display: block;
-  text-indent: -999999px;
-  height: 0;
-  margin-right: 10px;
-  border: 5px solid transparent;
-  border-bottom: 9px solid #cccccc;
-}
-
-.btn-sort-up:hover {
-  display: block;
-  text-indent: -999999px;
-  height: 0;
-  margin-right: 10px;
-  border: 5px solid transparent;
-  border-bottom: 9px solid #000000;
-}
-
-.btn-sort-up:active {
-  display: block;
-  text-indent: -999999px;
-  height: 0;
-  margin-right: 10px;
-  border: 5px solid transparent;
-  border-bottom: 9px solid #81b3d2;
-}
-
-/* Треугольники через :after
+/* Треугольники через :after*/
 .btn-sort-up {
   display: block;
   position: relative;
-  float: right;
 }
+
 .btn-sort-up:after {
   position: absolute;
   content: "";
   border: 5px solid transparent;
   border-bottom: 9px solid #81b3d2;
-  top: 25px;
-  right: 73px;
+  top: 0px;
+  left: 0px;
 }
 
-.btn-sort-up:after:hover {
+.btn-sort-up:hover:after {
   position: absolute;
   content: "";
   border: 5px solid transparent;
   border-bottom: 9px solid #000000;
-  top: 25px;
-  right: 73px;
+  top: 0px;
+  left: 0px;
+}
 
-  .btn-sort-up:after:active {
+.btn-sort-up:active:after {
   position: absolute;
   content: "";
   border: 5px solid transparent;
   border-bottom: 9px solid #81b3d2;
-  top: 25px;
-  right: 73px;
-}*/
+  top: 0px;
+  left: 0px;
+}
+
+.btn-sort-down {
+  display: block;
+  position: relative;
+}
+
+.btn-sort-down:after {
+  position: absolute;
+  content: "";
+  border: 5px solid transparent;
+  border-top: 9px solid #81b3d2;
+  top: 2px;
+  left: 22px;
+}
+
+.btn-sort-down:hover:after {
+  position: absolute;
+  content: "";
+  border: 5px solid transparent;
+  border-top: 9px solid #000000;
+  top: 2px;
+  left: 22px;
+}
+
+.btn-sort-down:active:after {
+  position: absolute;
+  content: "";
+  border: 5px solid transparent;
+  border-top: 9px solid #81b3d2;
+  top: 2px;
+  left: 22px;
+}
 
 .hotel {
   min-height: 121px;
@@ -896,10 +960,14 @@ label {
 
 .hotel h3 {
   margin-bottom: 0;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-top: 12px;
 }
 
 .hotel h3 a {
-  color: #000000;
+color: #000000;
 }
 
 .hotel h3 a:hover {
@@ -943,7 +1011,7 @@ label {
 .details {
   display: inline-block;
   background-color: #81b3d2;
-  padding: 7px 14px;
+  padding: 5px 16px;
   font-size: 14px;
   color: #ffffff;
 }
@@ -961,7 +1029,7 @@ label {
 .booking {
   display: inline-block;
   background-color: #766357;
-  padding: 7px 14px;
+  padding: 5px 16px;
   font-size: 14px;
   color: #ffffff;
 }
