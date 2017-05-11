@@ -155,13 +155,19 @@ nav li {
   padding-bottom: 9px;
 }
 
-.block-text-1,
+.block-text-1 p {
+  color: #ffffff;
+  margin-bottom: 19px;
+}
+
  .block-text-2 p {
   color: #ffffff;
 }
 
+
+
 .block-img-1 {
-  width: 66%;
+  width: 67%;
   height: 100%;
   position: absolute;
   overflow: hidden;
@@ -207,7 +213,7 @@ nav li {
 }
 
 .item2 h2 {
-  margin-bottom: 33px;
+  margin-bottom: 24px;
 }
 
 .item-house,
@@ -226,6 +232,10 @@ nav li {
   padding-bottom: 3px;
 }
 
+.item2-3 p {
+  margin-bottom: 23px;
+}
+
 .item2-3,
 .item2-4,
 .item2-5 {
@@ -240,7 +250,7 @@ nav li {
   min-height: 256px;
   background-color: #81b3d2;
   box-sizing: border-box;
-  padding: 30px;
+  padding: 39px;
 }
 
 .search {
@@ -253,6 +263,12 @@ nav li {
   width: 100%;
   height: 593px;
   background-position: bottom;
+  border: none;
+}
+
+.map iframe {
+  width: 100%;
+  height: 593px;
   border: none;
 }
 
@@ -308,7 +324,7 @@ nav li {
   width: 342px;
   height: 38px;
   margin-top: 29px;
-  margin-left: 20px;
+  margin-left: 17px;
   padding: 14px;
   box-sizing: border-box;
   border: none;
@@ -327,8 +343,8 @@ nav li {
   width: 21px;
   height: 22px;
   position: absolute;
-  top: 60px;
-  right: 60px;
+  top: 61px;
+  right: 59px;
 }
 
 .img-data:hover {
@@ -382,17 +398,22 @@ nav li {
 }
 
 .person {
-padding-top: 30px;
+  padding-top: 30px;
 }
 
 .person label {
   float: left;
-  padding: 0 15px;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
-.people {
-  margin: 0 15px;
+.adults {
+  margin-right: 54px;
+  margin-left: 42px;
+}
+
+.children {
+  margin-right: 0px;
+  margin-left: 27px;
 }
 
 .qty {
@@ -514,9 +535,11 @@ padding-top: 30px;
   position: absolute;
   bottom: 0px;
   background-color: #f9fbf6;
-  padding-top: 36px;
+  padding-top: 37px;
   padding-bottom: 15px;
   width: 100%;
+  box-sizing: border-box;
+  min-height: 120px;
   opacity: 0.9;
 }
 
@@ -532,6 +555,7 @@ padding-top: 30px;
   float: left;
   padding-left: 130px;
   padding-right: 70px;
+  margin-top: 10px;
 }
 
 .footer-social {
@@ -595,6 +619,7 @@ padding-top: 30px;
 .logo-htmlacademy {
   float: right;
   padding-right: 103px;
+  margin-top: 7px;
 }
 
 .btn {
@@ -646,13 +671,13 @@ padding-top: 30px;
 .filter h3 {
   font-size: 16px;
   color: #ffffff;
-  margin-bottom: 29px;
+  margin-bottom: 5px;
 }
 
 .filter label {
   font-size: 14px;
   color: #ffffff;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 .filter-infrastructure,
@@ -667,7 +692,7 @@ padding-top: 30px;
 
 .filter-infrastructure label, span {
   position: relative;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .filter-infrastructure input {
@@ -679,12 +704,12 @@ padding-top: 30px;
 .filter-infrastructure span {
   position: relative;
   display: block;
-  right: 100px;
-  top: 0px;
-  width: 20px;
-  height: 20px;
+  right: 80px;
+  top: 22px;
+  width: 16px;
+  height: 16px;
   border: 2px solid #ffffff;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .filter-infrastructure input:checked + span:before {
@@ -694,10 +719,10 @@ padding-top: 30px;
   width: 5px;
   height: 12px;
   background-color: #ffffff;
-  top: 6px;
-  right: 10px;
-  border-radius: 4px;
-  transform: rotate(-28deg);
+  top: 4px;
+  right: 7px;
+  border-radius: 0px;
+  transform: rotate(-50deg);
 }
 
 .filter-infrastructure input:checked + span:after {
@@ -706,9 +731,25 @@ padding-top: 30px;
   width: 5px;
   height: 20px;
   background-color: #ffffff;
-  top: -2px;
-  left: 15px;
-  transform: rotate(46deg);
+  top: -3px;
+  left: 12px;
+  transform: rotate(43deg);
+  border-radius: 4px;
+}
+
+.filter-type-house label, span {
+  position: relative;
+  margin-left: 45px;
+}
+
+.filter-type-house span {
+  position: relative;
+  display: block;
+  right: 86px;
+  top: 20px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffffff;
   border-radius: 4px;
 }
 
@@ -741,7 +782,7 @@ padding-top: 30px;
   content: "";
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 49%;
   width: 2px;
   height: 22px;
   background: #ffffff;
@@ -759,7 +800,14 @@ padding-top: 30px;
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
+}
+
+.price-controls .min-price {
   padding-left: 65px;
+}
+
+.price-controls .max-price {
+  padding-left: 61px;
 }
 
 .price-controls input {
@@ -769,6 +817,10 @@ padding-top: 30px;
   font: inherit;
   background: none;
   border: none;
+}
+
+.price-controls label {
+  line-height: 33px;
 }
 
 .range-controls {
@@ -845,7 +897,7 @@ label {
   font-size: 21px;
   font-weight: bold;
   margin-left: 72px;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .sort p {
@@ -853,6 +905,7 @@ label {
   margin-top: 23px;
   font-size: 12px;
   margin-left: 26px;
+  margin-right: -8px;
 }
 
 .sort-a a {
