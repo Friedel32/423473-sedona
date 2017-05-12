@@ -919,6 +919,10 @@ label {
   margin-right: -8px;
 }
 
+.sort-a {
+  float: left;
+}
+
 .sort-a a {
   float: left;
   font-size: 12px;
