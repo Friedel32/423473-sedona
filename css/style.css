@@ -432,6 +432,7 @@ nav li {
   width: 21px;
   height: 22px;
   cursor: pointer;
+  text-indent: -999999px;
 }
 
 .calendar:hover {
@@ -483,6 +484,22 @@ nav li {
 .departure-label {
   float: left;
   margin-top: 10px;
+}
+
+.hotel-grown button:hover {
+  color: #000;
+}
+
+.hotel-grown button:active {
+  color: #000;
+}
+
+.hotel-children button:hover {
+  color: #000;
+}
+
+.hotel-children button:active {
+  color: #81b3d2
 }
 
 .hotel-btn {
@@ -611,6 +628,7 @@ nav li {
   background-repeat: no-repeat;
   width: 113px;
   height: 39px;
+  text-indent: -999999px;
 }
 
 .btn:hover {
@@ -1130,6 +1148,7 @@ color: #000000;
   background-repeat: no-repeat;
   width: 18px;
   height: 17px;
+  text-indent: -999999px;
 }
 
 .main-footer-inn {
