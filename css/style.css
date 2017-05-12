@@ -100,6 +100,7 @@ nav li {
 
 .img-mountains {
   background-image: url(../img/mountains.jpg);
+  background-color: #85b8d5;
   width: 1200px;
   min-height: 435px;
   padding-top: 75px;
@@ -183,6 +184,7 @@ nav li {
 .img-sedona,
 .img-bridge {
   position: relative;
+  background-color: #b6cadc;
   width: 100%;
   height: auto;
   top: -70px;
@@ -310,6 +312,7 @@ nav li {
 
 .map {
   background-image: url(../img/map.jpg);
+  background-color: #f2f1ef;
   background-repeat: no-repeat;
   width: 100%;
   height: 593px;
@@ -379,6 +382,7 @@ nav li {
 
 .arrival-input:focus {
   background-color: #fff;
+  border: 2px solid #e5e5e5;
 }
 
 .departure-input:hover {
@@ -387,6 +391,7 @@ nav li {
 
 .departure-input:focus {
   background-color: #fff;
+  border: 2px solid #e5e5e5;
 }
 
 .hotel-form-search1 {
@@ -462,6 +467,9 @@ nav li {
 
 .hotel-grown button,
 .hotel-children button {
+  font-family: "PT Sans", "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
   width: 38px;
   color: #a9a9a9;
   height: 38px;
@@ -637,6 +645,7 @@ nav li {
 
 .filter {
   background-image: url(../img/filter_background.jpg);
+  background-color: #7d97b2;
   width: 1200px;
   min-height: 205px;
   padding-top: 12px;
@@ -684,6 +693,7 @@ nav li {
   height: 16px;
   border: 2px solid #ffffff;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .filter-infrastructure input:checked + span:before {
