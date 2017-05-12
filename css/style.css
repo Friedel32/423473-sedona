@@ -1,5 +1,5 @@
 body {
-  font-family:'PT Sans', 'Roboto', sans-serif;
+  font-family:"PT Sans", "Roboto", sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  font-family:'PT Sans', 'Roboto', sans-serif;
+  font-family:"PT Sans", "Roboto", sans-serif;
   font-size: 21px;
   line-height: 26px;
   color: #000000;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-family:'PT Sans', 'Roboto', sans-serif;
+  font-family:"PT Sans", "Roboto", sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -234,7 +234,7 @@ nav li {
 .item-house,
 .item-burger,
 .item-present {
-  width: 400px;
+  width: 390px;
   float: left;
   padding-top: 60px;
   padding-bottom: 64px;
@@ -259,7 +259,7 @@ nav li {
 .item2-3,
 .item2-4,
 .item2-5 {
-  width: 395px;
+  width: 389px;
   float: left;
   padding-top: 28px;
   padding-bottom: 36px;
@@ -344,18 +344,18 @@ nav li {
 }
 
 .hotel-form label {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.3px;
 }
 
-.hotel-form .arrival input,
-.hotel-form .departure input {
+.arrival-input,
+.departure-input {
   width: 345px;
   background-color: #f2f2f2;
   border: none;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -373,19 +373,19 @@ nav li {
   position: relative;
 }
 
-.hotel-form .arrival input:hover {
+.arrival-input:hover {
   background-color: #ebebeb;
 }
 
-.hotel-form .arrival input:focus {
+.arrival-input:focus {
   background-color: #fff;
 }
 
-.hotel-form .departure input:hover {
+.departure-input:hover {
   background-color: #ebebeb;
 }
 
-.hotel-form .departure input:focus {
+.departure-input:focus {
   background-color: #fff;
 }
 
@@ -407,7 +407,7 @@ nav li {
   height: 38px;
   border: none;
   background-color: #f2f2f2;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -482,7 +482,7 @@ nav li {
   background-color: #81b3d2;
   border: none;
   margin-top: 54px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Roboto", sans-serif;
   font-weight: bold;
   font-size: 21px;
   color: #fff;
