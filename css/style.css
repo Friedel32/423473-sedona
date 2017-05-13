@@ -222,6 +222,7 @@ nav li {
 .item2 {
   background-color: #eeeeee;
   padding-right: 15px;
+  padding-left: 15px;
   min-height: 256px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -240,6 +241,8 @@ nav li {
   float: left;
   padding-top: 60px;
   padding-bottom: 64px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .item p {
@@ -552,7 +555,7 @@ nav li {
 
 .footer-visit {
   float: left;
-  padding-left: 130px;
+  padding-left: 134px;
   padding-right: 70px;
   margin-top: 10px;
 }
@@ -619,7 +622,7 @@ nav li {
 .logo-htmlacademy {
   float: right;
   padding-right: 103px;
-  margin-top: 7px;
+  margin-top: 4px;
 }
 
 .btn {
@@ -653,7 +656,7 @@ nav li {
 .logo-htmlacademy span {
   display: inline-block;
   vertical-align: middle;
-  padding-right: 8px;
+  padding-right: 2px;
 }
 
 /*inner.html*/
@@ -727,34 +730,6 @@ nav li {
   border-radius: 4px;
   cursor: pointer;
 }
-/*
-.filter-infrastructure input:checked + input:disabled + span:before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 5px;
-  height: 12px;
-  background-color: #6a6a6a;
-  top: 4px;
-  right: 7px;
-  border-radius: 0px;
-  -webkit-transform: rotate(-50deg);
-          transform: rotate(-50deg);
-  }
-
-.filter-infrastructure input:checked + input:disabled + span:after {
-  position: absolute;
-  content: '';
-  width: 5px;
-  height: 20px;
-  background-color: #6a6a6a;
-  top: -3px;
-  left: 12px;
-  -webkit-transform: rotate(43deg);
-          transform: rotate(43deg);
-  border-radius: 4px;
-  }
-*/
 
 .filter-infrastructure input:checked + span:before {
   content: '';
@@ -802,7 +777,7 @@ nav li {
 .filter-range {
   float: right;
   width: 317px;
-  padding-right: 69px;
+  padding-right: 73px;
   margin: 14px auto;
   color: #ffffff;
   text-transform: uppercase;
@@ -866,6 +841,8 @@ nav li {
   font: inherit;
   background: none;
   border: none;
+  box-sizing: border-box;
+  padding-bottom: 10px;
 }
 
 .price-controls label {
@@ -874,7 +851,7 @@ nav li {
 
 .range-controls {
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 34px;
 }
 
 .range-controls .scale {
@@ -957,8 +934,8 @@ label {
   float: left;
   margin-top: 23px;
   font-size: 12px;
-  margin-left: 26px;
-  margin-right: -8px;
+  margin-left: 28px;
+  margin-right: -9px;
 }
 
 .sort-a {
@@ -970,7 +947,7 @@ label {
   font-size: 12px;
   color: #b2b2b2;
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: 32px;
   margin-top: 23px;
   border-bottom: 1px dashed #81b3d2;
 }
@@ -994,8 +971,8 @@ label {
   display: -ms-flexbox;
   display: flex;
   float: right;
-  margin-top: 27px;
-  margin-right: 72px;
+  margin-top: 24px;
+  margin-right: 70px;
   width: 35px;
 }
 
@@ -1079,6 +1056,7 @@ label {
   font-weight: bold;
   line-height: 26px;
   margin-top: 12px;
+  width: 400px;
 }
 
 .hotel-name a {
@@ -1095,7 +1073,7 @@ color: #000000;
 
 .hotel p {
   margin-top: 5px;
-  margin-bottom: 13px;
+  margin-bottom: 15px;
 }
 
 .hotel a {
@@ -1116,7 +1094,7 @@ color: #000000;
 }
 
 .hotel-amara {
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
 .hotel-desert {
@@ -1138,6 +1116,7 @@ color: #000000;
   padding: 3px 16px;
   font-size: 14px;
   color: #ffffff;
+  margin-right: 5px;
 }
 
 .details:hover {
@@ -1154,9 +1133,12 @@ color: #000000;
   display: inline-block;
   vertical-align: baseline;
   background-color: #766357;
-  padding: 2px 20px;
+  padding: 2px 19px;
+  padding-left: 16px;
   font-size: 14px;
   color: #ffffff;
+  box-sizing: border-box;
+  width: 140px;
 }
 
 .booking:hover {
@@ -1176,7 +1158,7 @@ color: #000000;
 
 .hotel-rating p {
   background-color: #f2f2f2;
-  padding: 6px 16px;
+  padding: 6px 15px;
   font-size: 14px;
   color: #666666;
   margin-top: 37px;
@@ -1197,11 +1179,15 @@ color: #000000;
   background-repeat: no-repeat;
   width: 18px;
   height: 17px;
+}
+
+.rating-star {
+  display: block;
   text-indent: -999999px;
 }
 
 .main-footer-inn {
   background-color: #ffffff;
-  padding-top: 36px;
+  padding-top: 35px;
   padding-bottom: 15px;
 }
