@@ -334,6 +334,7 @@ nav li {
 }
 
 .hotel-form {
+  display: none;
   width: 568px;
   background-color: #fff;
   font-weight: bold;
@@ -347,6 +348,10 @@ nav li {
   margin-left: 50%;
   -webkit-box-shadow: 0px 0px 5px 2px #e1e1e1;
           box-shadow: 0px 0px 5px 2px #e1e1e1;
+}
+
+.hotel-form-show {
+  display: block;
 }
 
 .hotel-form label {
@@ -1165,7 +1170,6 @@ color: #000000;
 }
 
 .stars {
-  text-align: right;
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -1179,10 +1183,8 @@ color: #000000;
   background-repeat: no-repeat;
   width: 18px;
   height: 17px;
-}
-
-.rating-star {
-  display: block;
+  margin: 0px;
+  padding: 0px;
   text-indent: -999999px;
 }
 
