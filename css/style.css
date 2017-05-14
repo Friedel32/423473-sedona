@@ -11,7 +11,7 @@ body {
   background-color: #ffffff;
 }
 
-h1 {
+.text h1 {
   font-family: "PT Sans", "Roboto", sans-serif;
   font-size: 21px;
   line-height: 26px;
@@ -19,7 +19,11 @@ h1 {
   font-weight: normal;
 }
 
-h2 {
+.block-sedona h2,
+.item h2,
+.block-bridge h2,
+.item2 h2,
+.search h2 {
   font-family: "PT Sans", "Roboto", sans-serif;
   font-size: 21px;
   line-height: 21px;
@@ -60,7 +64,7 @@ h2 {
   font-weight: bold;
 }
 
-nav li {
+.nav-item {
   line-height: 56px;
   list-style-type: none;
   width: 20%;
@@ -1093,12 +1097,13 @@ color: #000000;
 
 .img-hotel {
   float: left;
-  padding: 0px 30px 0px 72px;
+  padding: 0px 30px 10px 72px;
 }
 
 .hotel-info {
   float: left;
   margin-top: -15px;
+  padding-bottom: 15px;
 }
 
 .hotel-amara {
