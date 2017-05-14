@@ -1093,10 +1093,7 @@ color: #000000;
 
 .img-hotel {
   float: left;
-  padding-left: 72px;
-  padding-right: 30px;
-  padding-top: auto;
-  padding-bottom: auto;
+  padding: 0px 30px 0px 72px;
 }
 
 .hotel-info {
