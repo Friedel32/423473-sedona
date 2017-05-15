@@ -345,7 +345,7 @@ body {
 .hotel-form {
   display: block;
   width: 568px;
-  background-color: #fff;
+  background-color: #ffffff;
   font-weight: bold;
   font-size: 14px;
   padding: 55px;
@@ -379,7 +379,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
-  color: #000;
+  color: #000000;
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -398,7 +398,7 @@ body {
 }
 
 .arrival-input:focus {
-  background-color: #fff;
+  background-color: #ffffff;
   border: 2px solid #e5e5e5;
 }
 
@@ -407,7 +407,7 @@ body {
 }
 
 .departure-input:focus {
-  background-color: #fff;
+  background-color: #ffffff;
   border: 2px solid #e5e5e5;
 }
 
@@ -504,15 +504,15 @@ body {
 }
 
 .hotel-grown button:hover {
-  color: #000;
+  color: #000000;
 }
 
 .hotel-grown button:active {
-  color: #000;
+  color: #000000;
 }
 
 .hotel-children button:hover {
-  color: #000;
+  color: #000000;
 }
 
 .hotel-children button:active {
@@ -527,7 +527,7 @@ body {
   font-family: "PT Sans", "Roboto", sans-serif;
   font-weight: bold;
   font-size: 21px;
-  color: #fff;
+  color: #ffffff;
   padding: 18px;
   cursor: pointer;
 }
